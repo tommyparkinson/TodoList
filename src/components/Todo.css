@@ -1,0 +1,30 @@
+.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+.todo {
+  display: flex;
+  width: 320px;
+  background-color: white;
+  margin: 10px 0px;
+}
+
+.todo-item {
+  flex: 1;
+  text-transform: capitalize;
+  padding: 5px;
+}
+
+.complete-btn {
+  background-color: rgb(6, 236, 6);
+}
+
+.todo button {
+  border: none;
+  width: 30px;
+}
+
+.trash-btn {
+  background-color: rgb(252, 45, 45);
+}
